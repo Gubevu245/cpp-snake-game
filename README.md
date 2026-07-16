@@ -2,13 +2,6 @@
 
 A classic, grid-based Snake game built entirely in C++ that runs directly in the command prompt. The objective is to navigate the snake to eat fruit, grow its length, and achieve the highest score possible without colliding with the walls or the snake's own body.
 
-## Features
-* **Dynamic Grid Generation:** Memory is dynamically allocated for the game board, ensuring scalability.
-* **Turn-Based Movement:** Strategic, step-by-step movement using standard WASD controls.
-* **Collision Detection:** Fully implemented boundary checking and self-collision logic to trigger the Game Over state.
-* **Optimized Rendering:** Uses ANSI escape codes for cursor repositioning, completely eliminating console flickering during frame updates.
-* **Memory Management:** Includes complete memory deallocation to prevent leaks upon exiting the game loop.
-
 ## Tech Stack
 * **Language:** C++
 * **IDE:** Code::Blocks
